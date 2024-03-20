@@ -37,6 +37,7 @@ Hardware – PCs, Cyclone II , USB flasher
 
 Developed by:DHARANYA.N
 RegisterNumber:21222323004
+```
 module exp22(A,B,C,D,F1);
 input A,B,C,D;
 output F1;
@@ -48,6 +49,7 @@ assign x4=(~A)&(B)&(C)&(D);
 assign x5=(B)&(~C)&(D);
 assign F1=x1|x2|x3|x4|x5;
 endmodule
+```
 */
 
 
